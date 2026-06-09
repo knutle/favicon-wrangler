@@ -1,5 +1,5 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/devcontainers/universal:3",
   "hostRequirements": {
     "cpus": 4
   },
@@ -18,8 +18,8 @@
   },
   "portsAttributes": {
     "3000": {
-      "label": "Application",
-      "onAutoForward": "openPreview"
+      "label": "Application"
+      //"onAutoForward": "openPreview"
     }
   },
   "forwardPorts": [3000]
