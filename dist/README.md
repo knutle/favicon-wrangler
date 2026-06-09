@@ -1,0 +1,1 @@
+This folder contains the built output assets for the worker "favicon-wrangler" generated at 2026-06-09T14:40:25.533Z.
