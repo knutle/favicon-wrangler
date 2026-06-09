@@ -1,9 +1,12 @@
 {
+  "name": "favicon-wrangler",
   "private": true,
   "scripts": {
-    "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "dev": "next dev",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
   },
   "dependencies": {
     "next": "^16.2.3",
