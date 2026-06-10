@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
 import Button from '../components/Button'
-import ClickCount from '../components/ClickCount'
+import RedirButton from '../components/RedirButton'
 import styles from '../styles/home.module.css'
 
 function throwError() {
@@ -44,24 +44,8 @@ function Home() {
       </div>
       <hr className={styles.hr} />
       <div>
-        <p>Component with state.</p>
-        <ClickCount />
-      </div>
-      <hr className={styles.hr} />
-      <div>
-        <p>
-          The button below will throw 2 errors. You'll see the error overlay to
-          let you know about the errors but it won't break the page or reset
-          your state.
-        </p>
-        <Button
-          onClick={(e) => {
-            setTimeout(() => document.parentNode(), 0)
-            throwError()
-          }}
-        >
-          Throw an Error
-        </Button>
+        <p>Click here to proceed to your actual destination if you ended up here by accident.</p>
+        <RedirButton />
       </div>
       <hr className={styles.hr} />
     </main>
